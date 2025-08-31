@@ -2,28 +2,32 @@
 <html lang="es">
   <head>
     <meta charset="utf-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1, viewport-fit=cover"
-    />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
     <title>Hoja de Vida — David Pardo Rios</title>
 
     <!-- Fuente Inter -->
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap"
-    />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" />
 
     <!-- Tailwind por CDN -->
     <script src="https://cdn.tailwindcss.com"></script>
 
-    <!-- Estilos propios -->
+    <!-- React y ReactDOM UMD -->
+    <script crossorigin src="https://unpkg.com/react@18/umd/react.production.min.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js"></script>
+
+    <!-- Framer Motion UMD -->
+    <script src="https://unpkg.com/framer-motion/dist/framer-motion.umd.js"></script>
+
+    <!-- Babel Standalone -->
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+
+    <!-- Estilos -->
     <link rel="stylesheet" href="./index.css" />
   </head>
   <body class="antialiased">
     <div id="root"></div>
 
     <!-- App -->
-    <script type="module" src="./index.js"></script>
+    <script type="text/babel" src="./index.js"></script>
   </body>
 </html>
