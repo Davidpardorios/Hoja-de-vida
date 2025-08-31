@@ -1,0 +1,1 @@
+// Contenido completo del script principal proporcionado antes... (abreviado para el zip)
