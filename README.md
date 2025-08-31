@@ -1,16 +1,4 @@
-# Proyecto CV Dinámico — React + Tailwind
+# Versión compatible con GitHub Pages
 
-Este proyecto muestra una versión interactiva y moderna de la hoja de vida de **David Pardo Ríos**. Incluye:
-- **Modo oscuro** con toggle.
-- **Animaciones suaves** con Framer Motion.
-- **Búsqueda** en la sección de educación.
-- **Botones interactivos** (copiar correo, enlace a WhatsApp, imprimir/descargar PDF).
-
-### Estructura del proyecto
-```
-📂 proyecto-cv
- ├── index.html
- ├── index.css
- ├── index.js
- └── README.md
-```
+Esta versión usa React, ReactDOM, Framer Motion y Babel directamente desde CDNs.
+Solo necesitas subir estos archivos a tu repositorio y habilitar GitHub Pages.
