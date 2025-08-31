@@ -41,67 +41,30 @@ const experience = [
     company: "Corporación Unificada de Educación Superior (CUN)",
     where: "Bogotá",
     period: "Mar. 2025 – May. 2025",
-    bullets: [
-      "Módulo de limpieza de datos y modelos estadísticos."
-    ]
+    bullets: ["Módulo de limpieza de datos y modelos estadísticos."]
   },
   {
     title: "Docente",
     company: "Universidad Libre",
     where: "Bogotá",
     period: "Sep. 2022 – Oct. 2024",
-    bullets: [
-      "Matemáticas I y II, Cálculo Diferencial e Integral, Estadística I y Probabilidad."
-    ]
+    bullets: ["Matemáticas I y II, Cálculo Diferencial e Integral, Estadística I y Probabilidad."]
   },
   {
     title: "Analista de Datos",
     company: "Asociación Fómeque 2000",
     where: "Fómeque (Cundinamarca)",
     period: "Sep. 2020 – Jun. 2023",
-    bullets: [
-      "Gestión de bases de datos en SQL (8.000+ usuarios).",
-      "Reportes en Excel y Power BI para decisiones administrativas."
-    ]
+    bullets: ["Gestión de bases de datos en SQL (8.000+ usuarios).","Reportes en Excel y Power BI para decisiones administrativas."]
   }
 ];
 
 const education = [
-  {
-    title: "Maestría en Analítica de Datos",
-    org: "Universidad Central",
-    where: "Bogotá",
-    year: "2025",
-    desc: "Tesis en desarrollo: ‘Modelos de ML para optimizar selección de emisoras y franjas horarias en campañas publicitarias (Kantar IBOPE Media)’."
-  },
-  {
-    title: "Técnico Profesional en Operación y Mantenimiento de Bases de Datos",
-    org: "Fundación Universitaria Compensar",
-    where: "Bogotá",
-    year: "2024",
-    desc: "SQL, administración, respaldo y optimización de BD."
-  },
-  {
-    title: "Licenciatura en Física-Matemática",
-    org: "Universidad Pedagógica Nacional",
-    where: "Bogotá",
-    year: "2022",
-    desc: "Semillero de investigación, MySQL en proyectos de FyM, pensamiento lógico y metodologías cuantitativas."
-  },
-  {
-    title: "Diplomado en Docencia Universitaria",
-    org: "Universidad Libre",
-    where: "Bogotá",
-    year: "2023",
-    desc: "Formación pedagógica para educación superior."
-  },
-  {
-    title: "Ingeniería de Sistemas (9º semestre)",
-    org: "Fundación Universitaria Compensar",
-    where: "Bogotá",
-    year: "2026 (est.)",
-    desc: "En curso."
-  }
+  { title: "Maestría en Analítica de Datos", org: "Universidad Central", where: "Bogotá", year: "2025", desc: "Tesis en desarrollo: ‘Modelos de ML para optimizar selección de emisoras y franjas horarias en campañas publicitarias (Kantar IBOPE Media)’." },
+  { title: "Técnico Profesional en Operación y Mantenimiento de Bases de Datos", org: "Fundación Universitaria Compensar", where: "Bogotá", year: "2024", desc: "SQL, administración, respaldo y optimización de BD." },
+  { title: "Licenciatura en Física-Matemática", org: "Universidad Pedagógica Nacional", where: "Bogotá", year: "2022", desc: "Semillero de investigación, MySQL en proyectos de FyM, pensamiento lógico y metodologías cuantitativas." },
+  { title: "Diplomado en Docencia Universitaria", org: "Universidad Libre", where: "Bogotá", year: "2023", desc: "Formación pedagógica para educación superior." },
+  { title: "Ingeniería de Sistemas (9º semestre)", org: "Fundación Universitaria Compensar", where: "Bogotá", year: "2026 (est.)", desc: "En curso." }
 ];
 
 // =================== UTILIDADES ===================
